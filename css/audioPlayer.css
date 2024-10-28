@@ -1,0 +1,23 @@
+/* Audio Player */
+.audio-player {
+  background-color: rgba(255, 255, 255, 0); /* Fondo transparente */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+button img {
+  width: 70px;
+  height: 70px;
+  transition: transform 0.3s;
+}
+
+button:hover img {
+  transform: scale(1.1);
+}
